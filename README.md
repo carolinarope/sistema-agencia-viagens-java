@@ -1,21 +1,40 @@
-# Sistema de Agência de Viagens (Console)
+# Sistema de Agência de Viagens — Java
 
-##  Sobre o Projeto
-Este é um sistema desenvolvido em **Java** aplicando os pilares da **Orientação a Objetos (POO)**. O objetivo do programa é simular o back-end do balcão de uma agência de viagens, calculando pacotes turísticos (voo + hotel), margens de lucro e fazendo a conversão de câmbio (Dólar para Real) em tempo real.
+Projeto acadêmico de console desenvolvido para praticar Programação Orientada a Objetos em Java. A aplicação simula operações de uma agência de viagens, organizando informações de transporte, hospedagem, pacotes e vendas.
 
-## Funcionalidades
-- Cadastro de Cliente e Forma de Pagamento.
-- Associação de Transporte e Hospedagem em um Pacote de Viagem.
-- Cálculo automático de lucro da agência e taxas adicionais.
-- Conversão de moedas.
-- Emissão de recibo detalhado no console.
-  
-##  Tecnologias Utilizadas
-- Java 
-- Paradigma Orientado a Objetos (Encapsulamento, Associação de Classes)
-- Scanner para entrada de dados
+## Objetivo do projeto
 
-## Como executar o projeto
-1. Clone este repositório na sua máquina.
-2. Abra a pasta do projeto na sua IDE (NetBeans, Eclipse ou IntelliJ).
-3. Execute o arquivo `Principal.java`.
+Exercitar a modelagem de entidades e a relação entre objetos, além de implementar regras de negócio e apresentar um resumo da venda no console.
+
+## Funcionalidades implementadas
+
+- Cadastro de cliente e forma de pagamento.
+- Associação de transporte e hospedagem em um pacote de viagem.
+- Cálculo de valores do pacote, taxas adicionais e margem da agência.
+- Conversão de valores de dólar para real.
+- Geração de recibo no console.
+
+## Conceitos praticados
+
+- Classes, objetos, atributos e métodos.
+- Encapsulamento.
+- Construtores e métodos de acesso.
+- Associação e composição entre classes.
+- Organização de regras de negócio.
+- Entrada de dados com `Scanner`.
+
+## Tecnologias
+
+- Java
+- IDE utilizada no desenvolvimento: conforme configuração local do projeto.
+
+## Como executar
+
+1. Clone o repositório.
+2. Abra o projeto em uma IDE compatível com Java.
+3. Localize a classe que contém o método `main`.
+4. Execute a aplicação e siga as instruções exibidas no console.
+
+## Status
+
+Projeto de estudo. O repositório documenta a aplicação dos fundamentos de POO e pode receber melhorias conforme a evolução dos estudos.
